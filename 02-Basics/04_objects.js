@@ -75,11 +75,11 @@ console.log(p)
 
 // API and json
 
-{
-    "coursename" : "Javascript"
-    "price" : "free",
-    "CourseInstructor" : "Hitesh"
-}
+// {
+//     "coursename" : "Javascript"
+//     "price" : "free",
+//     "CourseInstructor" : "Hitesh"
+// }
 
 [
     {},
