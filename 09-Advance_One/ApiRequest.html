@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Request</title>
+</head>
+<body >
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+</body>
+<script>
+
+    const requestURL = 'https://api.github.com/users/naveenmp86'
+    const xhr = new XMLHttpRequest();
+    //method 'GET' or somthing shows what type of request we want to access
+    xhr.open('GET',requestURL);
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState);
+        if(xhr.readyState === 4){
+            const data = JSON.parse(this.response);
+            console.log(typeof data)
+            console.log(data.following)
+        }
+    }
+    
+    xhr.send();
+</script>
+</html>
