@@ -221,8 +221,7 @@ console.log('End');
   
 #### Output:
 ```js
-arduino
-Copy code
+
 Start
 End
 Microtask Queue Task
