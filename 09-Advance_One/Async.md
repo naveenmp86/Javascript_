@@ -38,7 +38,13 @@
 2) Execution Phase:
    - Executes the code line by line.
    - Updates the values of variables.
+  
 
+---
+
+![API Image](./api.jpg)
+
+---
 
 # 1. Call Stack
 - The call stack is a data structure that keeps track of function calls in the order they need to be executed.
