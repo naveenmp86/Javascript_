@@ -16,6 +16,7 @@ console.log(null >= 0)
 console.log(undefined > 0)
 console.log(undefined == 0)
 console.log(undefined >= 0)
+//In JavaScript, undefined is not a number, and when compared to a number
 
 // === "strict comaparision"
 
