@@ -15,6 +15,8 @@ const anotherId = Symbol('123')
 // console.log(id == anotherId)
 // console.log(id)
 
+// Even though both symbols have the same description '123', they are not equal to each other. Each Symbol is unique by definition.
+
 const bigNumber = 369258147852369n
 
 
